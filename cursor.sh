@@ -18,16 +18,16 @@ fi
 MERGING="$4"
 BACKUP="/tmp/$(date +"%Y%d%m%H%M%S")"
 
-CMD=$(which code)
+CMD=$(which cursor)
 
 if [ ! $CMD ] >/dev/null; then
-	if [ -e '/usr/local/bin/code' ]; then
-		CMD='/usr/local/bin/code'
+	if [ -e '/usr/local/bin/cursor' ]; then
+		CMD='/usr/local/bin/cursor'
 	fi
 fi
 
 if [ ! -x "$CMD" ]; then
-	echo "Visual Studio Code command line tool 'code' could not be found. Please make sure it has been installed in /usr/local/bin/." >&2
+	echo "Cursor command line tool 'cursor' could not be found. Please make sure it has been installed in /usr/local/bin/." >&2
 	exit 128
 fi
 

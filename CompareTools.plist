@@ -4,15 +4,15 @@
     <array>
         <dict>
             <key>ApplicationIdentifier</key>
-            <string>com.microsoft.VSCode</string>
+            <string>com.cursor.editor</string>
             <key>ApplicationName</key>
-            <string>Visual Studio Code</string>
+            <string>Cursor</string>
             <key>DisplayName</key>
-            <string>Visual Studio Code</string>
+            <string>Cursor</string>
             <key>LaunchScript</key>
-            <string>vscode.sh</string>
+            <string>cursor.sh</string>
             <key>Identifier</key>
-            <string>code</string>
+            <string>cursor</string>
             <key>SupportsMergeTool</key>
             <true/>
             <key>SupportsDiffChangeset</key>
